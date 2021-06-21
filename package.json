@@ -1,10 +1,13 @@
 {
+  "homepage": "https://github.com/jorgejj2018/portafolio",
   "name": "portafolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
+
+    "predeply":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
   },
@@ -23,6 +26,7 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
+    "gh-pages": "^3.2.2",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
