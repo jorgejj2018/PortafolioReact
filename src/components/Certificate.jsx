@@ -18,6 +18,7 @@ const Certificate = () =>(
                 <PStyled name="Desarrollo Web con Bootstrap 4 - U.Buenos Aires -"></PStyled>
                 <PStyled name="Python - U.Michigan -"></PStyled>
                 <PStyled name="Humanidades Digitales - U.Barcelona -"></PStyled>
+                <PStyled name="Talento para el valle del software de la ciudad de medellin"></PStyled>
             </div>
             <div className="Certificates-item">
                 <H3Styled>Estudios Autodidacta</H3Styled>
