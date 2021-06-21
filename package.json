@@ -7,7 +7,7 @@
   "scripts": {
 
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"master -d build",
     "build": "webpack --mode production",
     "start": "webpack serve --mode development"
   },
