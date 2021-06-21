@@ -53,7 +53,7 @@ const SkillsSpan = styled.span`
   }
 `;
 
-const average = [80,60,60,10,50];
+const average = [90,60,80,10,50];
 
 const Skills = () =>(
     <div className="Skills">
@@ -86,6 +86,12 @@ const Skills = () =>(
                 <SkillsH5>Git y GitHub</SkillsH5>
                 <SkillsLine className="Skills-line">
                     <SkillsSpan width={ average[4] }/>
+                </SkillsLine>
+            </div>
+            <div className="Skills-item">
+                <SkillsH5>Figma</SkillsH5>
+                <SkillsLine className="Skills-line">
+                    <SkillsSpan width={ average[1] }/>
                 </SkillsLine>
             </div>
         </SkillContainer>
